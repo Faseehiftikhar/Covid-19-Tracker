@@ -4,7 +4,7 @@ function HeaderImage() {
     return (
         <div>
 
-            <img src={require('./simple.png')} alt="covid-19" style={{width:'480px', height: '480px'}}></img>
+            <img src={require('./simple.png')} alt="covid-19" style={{width:'300pxpx', height: '300pxpx'}}></img>
         </div>
       
       
