@@ -1,4 +1,6 @@
-import React, {useState} from 'react';import './App.css';
+import React from'react';
+
+import './App.css';
 // Importing All Components
 import HeaderBar from'./Components/HeaderBar';
 import MainInfoGrid from './Components/MainInfoGrid';
