@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';import './App.css';
+// Importing All Components
+import HeaderBar from'./Components/HeaderBar';
+import MainInfoGrid from './Components/MainInfoGrid';
+import RoughHeadings from'./Components/RoughHeadings';
+import CountriesData from './Components/CountriesData';
+import LineChart from './Components/Charts';
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+ <div><HeaderBar/>
+ <RoughHeadings/>
+  <MainInfoGrid/>
+  <div className="Heading">Countries Statistics</div>
+   <CountriesData/>
+   <hr></hr>
+   <LineChart/>
+   </div>
+      
+     
+    
+    
   );
 }
 
